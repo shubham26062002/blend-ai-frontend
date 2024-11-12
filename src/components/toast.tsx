@@ -15,7 +15,7 @@ export const Toast = () => {
                 clear()
             }, 5000)
         }
-    }, [message, setTimeout, clear])
+    }, [message, clear])
 
     if (!message) {
         return null

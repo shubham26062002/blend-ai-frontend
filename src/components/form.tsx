@@ -54,8 +54,8 @@ export const Form = () => {
             })
 
             return setResultImageUrl("/images/fruit.jpg")
-        } catch (error) {
-            return set("An unknown error occurred. Please try again later.", "error")
+        } catch (_) {
+            return set("An unknown error occurred. Please try again later.")
         }
     })
 

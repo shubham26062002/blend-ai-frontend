@@ -15,7 +15,7 @@ export const Footer = () => {
                     behavior: "smooth",
                 })}>Get started</button>
             </div>
-            <p className="text-xs text-center text-zinc-500">&copy; Shubham Patel's development, All rights reserved.</p>
+            <p className="text-xs text-center text-zinc-500">&copy; Shubham Patel&apos;s development, All rights reserved.</p>
         </footer>
     )
 }
